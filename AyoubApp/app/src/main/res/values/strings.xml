@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ayoub App</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="next">Next</string>
+    <string name="reload">ReLoad</string>
+    <string name="back">Back</string>
+    <string name="screen">Screen</string>
+    <string name="fergen">1.0</string>
+    <string name="nameApp">NameApp</string>
+    <string name="backhome">Back</string>
+    <string name="contact">Contact Me</string>
+</resources>

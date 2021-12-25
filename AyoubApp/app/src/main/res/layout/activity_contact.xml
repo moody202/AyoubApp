@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact">
+
+    <Button
+        android:id="@+id/homeabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="home"
+        android:text="@string/home" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="542dp">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/backhome"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:onClick="back"
+        android:text="@string/backhome"
+        android:textColor="#090808"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
